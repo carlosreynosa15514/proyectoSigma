@@ -1,0 +1,30 @@
+body {
+    background: lightgrey;
+    background-image: url("../img/Wood1.jpg");
+}
+
+.container {
+    display: flex;
+}
+
+header {
+    background-color: brown;
+    opacity: .8;
+    width: 100%;
+    margin: 0px auto;
+    color: white;
+}
+
+header.submenu {
+    background-color: #0652DD;
+}
+
+img {
+    margin: 10px;
+    width: 100px;
+}
+
+hr {
+    background-color: brown;
+    border: 1px solid red;
+}

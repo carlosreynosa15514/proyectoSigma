@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: #ffff;
+    width: 800px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: initial;
+    background-color: white;
+    transition: opacity 0.5s;
+}
+
+img {
+    width: 750px;
+    height: 500px;
+    object-fit: fill;
+    background-color: white;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: darkolivegreen;
+    text-decoration: none;
+    background-color: #b2bec3;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    border-radius: 100%;
+}
