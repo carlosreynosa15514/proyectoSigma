@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #0a3d62;
+}
+
+/* Estilo de la barra de menu */
+.menu {
+    background: red;
+}
+
+.menu .menu-lista{
+    list-style: none;
+    text-align: center;
+}
+
+.menu .menu-item {
+    display: inline-block;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.menu-link {
+    font-size: 1.7em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.menu-link:hover {
+    color: black;
+    font-weight: bolder;
+    transition-duration: .3s;
+}
+
+/* Estilo de la barra del Titulo con el Logo */
+.logo {
+    width:  150px;
+    height: 100px;
+}
+
+.header .titulo-principal {
+    display: inline-block;
+    margin-left: 40%;
+    color: white;
+    font-size: 3em;
+}
+
+/* Estilo del Contenedor agil con las Guidelines */
+.contenedor-agil {
+    background: white;
+    background-image: url("../img/Agil1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 400px;
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+section {
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: inter-cluster;
+}
+
+.guidelines {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Estilo de las imagenes abajo del Contenedor Agil */
+.figura-imagen {
+    display: inline-block;
+    
+}
+.imagenes {
+    margin-top: 20px;
+    text-align: center;
+    align-content: space-between;
+}
+
+.imagen-elemento {
+    width: 300px;
+    height: 300px;
+    margin: 0 60px;
+}
+
+.caption {
+    color: white;
+    font-size: 1.7em;
+    
+}
+
+.caption:hover {
+    color:black;
+    background:rgb(245,245,245,.5);
+    transition: 1s;
+}
