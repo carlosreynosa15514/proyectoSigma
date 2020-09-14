@@ -6,7 +6,8 @@ body {
     background: #0a3d62;
 }
 
-/* Estilo de la barra de menu */
+                        /****************  Estilo de la barra de menu *******************/
+
 .menu {
     background: red;
 }
@@ -27,7 +28,7 @@ body {
 }
 
 .menu-link {
-    font-size: 1.7em;
+    font-size: 1em;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -37,33 +38,39 @@ body {
     transition-duration: .3s;
 }
 
-/* Estilo de la barra del Titulo con el Logo */
-.logo {
-    width:  150px;
-    height: 100px;
-}
+                        /***************** Estilo de la barra del Titulo con el Logo ****************/
 
-.header .titulo-principal {
-    display: inline-block;
-    margin-left: 40%;
+.header {
     color: white;
-    font-size: 3em;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
 }
 
-/* Estilo del Contenedor agil con las Guidelines */
+.logo {
+    width:  100px;
+    height: 77px;
+    display: flex;
+}
+
+.titulo-principal {
+    width: 55%;
+    margin: 0 auto;
+}
+
+                    /* Estilo del Contenedor agil con las Guidelines */
 .contenedor-agil {
-    background: white;
-    background-image: url("../img/Agil1.png");
+    background: rgb(35, 31, 32);
+    background-image: url("../img/Agil3.png" );
+    object-fit: fill;
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 400px;
     width: 100%;
-    padding: 5px;
     overflow: hidden;
 }
-
 section {
-    width: 50%;
+    width: 55%;
     font-family: 'Courier New', Courier, monospace;
     text-justify: inter-cluster;
 }
@@ -71,33 +78,50 @@ section {
 .guidelines {
     color: white;
     font-size: 1.2em;
+    margin-top: 0;
+ }
+
+.list-guidelines {
+    margin-left: 50px;
 }
 
-/* Estilo de las imagenes abajo del Contenedor Agil */
+.titulo {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+            /* Estilo de las imagenes abajo del Contenedor Agil */
+
 .figura-imagen {
     display: inline-block;
-    
+
 }
 .imagenes {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     align-content: space-between;
 }
 
 .imagen-elemento {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     margin: 0 60px;
 }
 
 .caption {
     color: white;
     font-size: 1.7em;
-    
+
 }
 
 .caption:hover {
     color:black;
     background:rgb(245,245,245,.5);
     transition: 1s;
+}
+
+.a-imagenes {
+    color: white;
+    text-decoration: none;
 }
