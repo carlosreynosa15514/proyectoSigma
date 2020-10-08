@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background: #0a3d62;
+    /* background: #0a3d62;*/
+    /*background: #195e83; */
+    background: whitesmoke;
 }
 
-                        /****************  Estilo de la barra de menu *******************/
+/****************  Estilo de la barra de menu *******************/
 
 .menu {
     background: red;
 }
 
-.menu .menu-lista{
+.menu .menu-lista {
     list-style: none;
     text-align: center;
 }
@@ -38,19 +41,19 @@ body {
     transition-duration: .3s;
 }
 
-                        /***************** Estilo de la barra del Titulo con el Logo ****************/
+/***************** Estilo de la barra del Titulo con el Logo ****************/
 
 .header {
-    color: white;
+    color: darkblue;
     font-size: 1em;
     display: flex;
     align-items: center;
 }
 
 .logo {
-    width:  100px;
+    width: 100px;
     height: 77px;
-    display: flex;
+    /* display: flex; */
 }
 
 .titulo-principal {
@@ -58,10 +61,15 @@ body {
     margin: 0 auto;
 }
 
-                    /* Estilo del Contenedor agil con las Guidelines */
+.titulo-directorio {
+    margin: 0 auto;
+}
+
+/* Estilo del Contenedor agil con las Guidelines */
+
 .contenedor-agil {
     background: rgb(35, 31, 32);
-    background-image: url("../img/Agil3.png" );
+    background-image: url("../img/Agil3.png");
     object-fit: fill;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -69,6 +77,7 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
 section {
     width: 55%;
     font-family: 'Courier New', Courier, monospace;
@@ -79,7 +88,7 @@ section {
     color: white;
     font-size: 1.2em;
     margin-top: 0;
- }
+}
 
 .list-guidelines {
     margin-left: 50px;
@@ -91,12 +100,12 @@ section {
     font-size: 2em;
 }
 
-            /* Estilo de las imagenes abajo del Contenedor Agil */
+/************ Estilo de Seccion Imagenes de Footer ************/
 
 .figura-imagen {
     display: inline-block;
-
 }
+
 .imagenes {
     margin-top: 10px;
     text-align: center;
@@ -110,18 +119,64 @@ section {
 }
 
 .caption {
-    color: white;
+    color: darkblue;
     font-size: 1.7em;
-
 }
 
 .caption:hover {
-    color:black;
-    background:rgb(245,245,245,.5);
+    color: black;
+    background: rgb(245, 245, 245, .5);
     transition: 1s;
 }
 
 .a-imagenes {
-    color: white;
+    color: darkblue;
     text-decoration: none;
+}
+
+/************ Estilo del footer de los Contactos ************/
+
+.footer {
+    display: flex;
+    color: darkblue;
+    justify-content: center;
+}
+
+.p-footer {
+    width: 400px;
+}
+
+.a-footer {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.a-footer:hover {
+    color: black;
+    background: rgb(245, 245, 245, .5);
+    transition: 1s;
+}
+
+.division {
+    border: 1px solid teal;
+}
+
+/************ Estilo de Tabla de Directorio ************/
+
+.directorio {
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+
+th, td {
+    height: 1.5em;
+    color: darkblue;
+    border: 1px solid ;
+    border-color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td {
+    padding-left: 30px;
 }
