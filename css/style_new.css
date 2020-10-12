@@ -140,6 +140,7 @@ section {
     display: flex;
     color: darkblue;
     justify-content: center;
+    font-size: 1em;
 }
 
 .p-footer {

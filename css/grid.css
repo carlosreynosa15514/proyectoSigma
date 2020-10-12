@@ -1,14 +1,15 @@
 .contenedor {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+    width: 700px;
     padding: 20px;
-    margin-left: 25%;
+    margin: auto;
+    margin-top: 40px;
 
 }
 .box {
-    /* background: white; */
-    
     color: white;
     text-align: center;
     height: 90px;
@@ -16,7 +17,8 @@
 
 .box img {
     margin: 0;
-    width: 100px;
-    height: 90px;
+    width: 180px;
+    height: 130px;
+    
 
 }

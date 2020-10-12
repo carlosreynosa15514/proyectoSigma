@@ -1,4 +1,44 @@
-.main-devops {
-    
-    background-image: "../img/devops_big.jpg";
+.dev-titulo {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    color: darkblue;
+}
+
+.dev-contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "p1 imagen  imagen  vid1"
+        "p2 imagen  imagen  vi2"
+        "p2 imagen  imagen  vid3";
+    width: 1200px;
+    margin: auto;
+}
+
+.dev-contenedor .p-1 {
+    grid-area: p1;
+}
+
+.dev-contenedor .p-2 {
+    grid-area: p2;
+}
+
+.p-1, .p-2 {
+    font-size: 1.3em;
+}
+
+.dev-contenedor .dev-img {
+    grid-area: imagen;
+}
+
+
+img {
+    width: 600px;
+}
+
+.footer {
+    grid-column: span 4;
 }
