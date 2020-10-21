@@ -1,8 +1,6 @@
-body {
-    background: whitesmoke;
-}
+/*
 
-.main-gix {
+.main-gi {
     background: #0f0c29;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
@@ -10,8 +8,11 @@ body {
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+*/
+
+
 .titulo-gi-element {
-    color: darkblue;
+    color: blue;
     text-align: center;
 }
 
@@ -24,12 +25,12 @@ body {
 }
 
 .parrafo-gi {
-    color: darkblue;
+    color: blue;
     font-weight: bolder;
     padding: 5px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    margin-right: 100px;
+    margin-right: 100px;    
 }
 
 .seccion-gi:nth-child(5){
