@@ -1,6 +1,6 @@
 body {
-    background: lightgrey;
-    background-image: url("../img/Wood1.jpg");
+    background: #B2B8A7;
+    /* background-image: url("../img/gray_back1.jpg"); */
 }
 
 .container {
@@ -27,4 +27,9 @@ img {
 hr {
     background-color: brown;
     border: 1px solid red;
+}
+
+table {
+    border: 1px solid black;
+    bor
 }

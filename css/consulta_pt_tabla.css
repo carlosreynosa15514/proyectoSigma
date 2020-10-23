@@ -38,8 +38,9 @@ form {
 
 .clave {
     font-size: 1.5em;
-    color: blue;
+    color: #d1d1e0;
     font-weight: bold;
+    margin-right: auto;
 }
 
 p {
@@ -50,11 +51,11 @@ p {
 #sku {
     width: 200px;
     height: 30px;
-    font-size: 2em;
-    border-color: skyblue;
+    font-size: 1.2em;
+    border-radius: 10px;
 }
 
 .submit {
-    width: 100px;
-    height: 20px;
+    display:none;
 }
+
