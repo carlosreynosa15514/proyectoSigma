@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1> Consulta Cuenta Contable </h1>
+        <h1> Consulta Cuenta Contable Gastos </h1>
     </header>
     <nav class="menu">
         <a href="consultas.html">Home</a>
@@ -22,7 +22,7 @@
 
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
             <div class="form-group">
-                <label for="name" id="sku">Cuenta Contable</label>
+                <label for="name" id="sku">Grupo SigSiere</label>
                 <input type="text" name="sku" id="sku" autofocus minlength = "3">
                 <input type="submit" name="submit" class = "submit" value="Consultar">
                 <a href='#' id='exportar' onclick = "tableToExcel('tabla','datos')"> Exportar a Excel </a>
@@ -45,7 +45,7 @@
                     try {
                         $db = new PDO('sqlite:C:\Users\cmoreno\OneDrive\Cursos Practicos\Proyecto SQL\dbcatalogos.db') or die("error de conn");
                         $cproducto = (
-                            "SELECT * from cuentas
+                            "SELECT * from sigsiere
                                 where cuenta = $csku"
                         );
 
@@ -75,6 +75,7 @@
                                 <thead class = 'thead-light'>
                                     <tr>
                                         <th> Cuenta </th>
+                                        <th> Nivel 3 Sigsiere </th>
                                         <th> Nombre de la Cuenta </th>
                                     </tr>
                                 </thead>";
@@ -83,6 +84,7 @@
                         {
                             echo "<tr>
                                     <td> {$pt['cuenta']} </td>
+                                    <td> {$pt['nivel3']} </td>
                                     <td> {$pt['descripcion']} </td>
                                 </tr>";
                         };
