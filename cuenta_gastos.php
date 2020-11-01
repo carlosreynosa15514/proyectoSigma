@@ -22,7 +22,7 @@
 
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
             <div class="form-group">
-                <label for="name" id="sku">Grupo SigSiere</label>
+                <label for="name" id="sku">Cuenta de Gastos</label>
                 <input type="text" name="sku" id="sku" autofocus minlength = "3">
                 <input type="submit" name="submit" class = "submit" value="Consultar">
                 <a href='#' id='exportar' onclick = "tableToExcel('tabla','datos')"> Exportar a Excel </a>

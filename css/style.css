@@ -1,5 +1,5 @@
 body {
-    background: #abcbdd;
+    background: #304755;
     /* background-image: url("../img/gray_back1.jpg"); */
 }
 
@@ -8,9 +8,9 @@ body {
 }
 
 header {
-    background-color: brown;
+    background-color: rgb(150, 25, 25);
     opacity: .8;
-    width: 100%;
+    width: 70%;
     height: 70px;
     margin: auto;
     color: white;
@@ -34,6 +34,11 @@ img:hover {
 hr {
     background-color: brown;
     border: 1px solid red;
+}
+
+#h1-consultas {
+    margin-top: 7px;
+    font-size: 3rem;
 }
 
 table {

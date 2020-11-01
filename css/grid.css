@@ -1,12 +1,13 @@
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 50px;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 70px;
+    column-gap: 30px;
     justify-content: center;
     width: 700px;
     padding: 20px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
 
 }
 .box {
