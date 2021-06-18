@@ -74,6 +74,8 @@
                                     <th> Nombre Site </th>
                                     <th> Sociedad </th>
                                     <th> Nombre Sociedad </th>
+                                    <th> Region </th>
+
                                 </tr>
                             </thead>";
 
@@ -84,6 +86,7 @@
                                 <td> {$pt['site']} </td>
                                 <td> {$pt['soc']} </td>
                                 <td> {$pt['sociedad']} </td>
+                                <td> {$pt['region']} </td>
                               </tr>";
                     };
                 } catch (PDOException $e) {

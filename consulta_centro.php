@@ -47,24 +47,6 @@
                                 "SELECT * from centros
                                     where centro = $csku"
                             );
-                            // $contador = (
-                            //     "SELECT count(ceco) as numero from cecos
-                            //         where responsable like $csku"
-                            // );
-
-                            // // Cuento e imprimo los registros de la seleccion
-                            // $cuenta = $db->prepare($contador);
-                            // $cuenta->execute();
-                            // while ($pt = $cuenta->fetch())
-                            // {
-                            //     echo "
-                            //         <br>
-                            //         <p class = 'clave'>
-                            //             Cantidad de Registros: {$pt['numero']}
-                            //             <br>
-                            //         </p>";
-                            // };
-
                             // Ejecuta la seleccion princial
                             $query = $db->prepare($cproducto);
                             $query->execute();
@@ -75,6 +57,7 @@
                                             <th> Nombre Centro</th>
                                             <th> Sociedad </th>
                                             <th> Nombre Sociedad </th>
+                                            <th> Región </th>
                                         </tr>
                                     </thead>";
 
@@ -85,12 +68,13 @@
                                         <td> {$pt['site']} </td>
                                         <td> {$pt['soc']} </td>
                                         <td> {$pt['sociedad']} </td>
+                                        <td> {$pt['region']} </td>
                                     </tr>";
                             }
                         }catch (PDOException $e) {
                             echo $e->getMessage();
                         }
-                        echo "</table>";
+                        echo "</table>";	
                     }else{
                     echo "El campo no puede estar vacio";
                     }

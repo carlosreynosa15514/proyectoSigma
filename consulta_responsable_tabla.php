@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1> BUsqueda Responsable Cartera por Nombre </h1>
+        <h1> Busqueda Responsable Cartera por Nombre </h1>
     </header>
     <nav class="menu">
         <a href="consultas.html">Home</a>
